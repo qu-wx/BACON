@@ -1,3 +1,8 @@
+#' The BACON Class
+#'# Class definitions
+#' @importFrom methods setClassUnion
+#' @importClassesFrom Matrix dgCMatrix
+#' @importClassesFrom data.table data.table
 setClassUnion(name = 'AnyMatrix', members = c("matrix", "dgCMatrix"))
 setClassUnion(name = 'AnyFactor', members = c("factor", "list"))
 setClassUnion(name = 'AnyDF', members = c("data.frame"))
