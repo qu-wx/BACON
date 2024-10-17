@@ -8,10 +8,10 @@ License: `use_gpl3_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Depends: R (>= 4.0.0),dplyr,igraph,ggplot2,CellChat
+Depends: R (>= 4.0.0),dplyr,igraph,ggplot2,grDevices,circlize
 LazyData: true
 Imports: 
-    CellChat,
+    grDevices,
     circlize,
     ComplexHeatmap,
     data.table,
