@@ -1,0 +1,22 @@
+Package: BACON
+Title: BACteria COmmunicatioN (BACON), a method that utilizes single-microbe RNA sequencing data to infer, visualize and analyze quorum sensing on single species and human gut microbiome. 
+Version: 1.0.0
+Authors@R: 
+    person("Qu", "Shen", , "quwenxin@zju.edu.cn", role = c("aut", "cre"))
+Description: A method that utilizes single-microbe RNA sequencing data to infer, visualize and analyze quorum sensing on single species and human gut microbiome
+License: `use_gpl3_license()` 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.0.0),dplyr,igraph,ggplot2,CellChat
+LazyData: true
+Imports: 
+    CellChat,
+    circlize,
+    ComplexHeatmap,
+    data.table,
+    ggalluvial,
+    ggplot2,
+    NMF,
+    Seurat,
+    SeuratObject
