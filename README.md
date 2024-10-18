@@ -28,7 +28,7 @@ qs_aggregated <- net_aggregation(example_BACON_object@net)
 netVisual_circle_BACON(example_BACON_object@net$select_qs)
 ```
 ## Tutorials
-[Database construction for cross-species](https://github.com/qu-wx/BACON-database/tree/main) 
+[Database construction for cross-species](https://github.com/qu-wx/BACON-database/blob/main/BACON%20database.md) <br>
 [Inference and visualization of quorum sensing network](https://github.com/qu-wx/BACON-database/blob/main/tutor/Inference%20and%20visualization%20of%20quorum%20sensing%20network.md)
 ## R dependencies (tested and recommended)
 
